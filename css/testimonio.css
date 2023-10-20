@@ -1,0 +1,45 @@
+/* estilos para TESTIMONIOS */
+.fondo-testimonio{
+    background: gray;
+    padding-top: 60px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.text-testimonio{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.testimonios{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.testimonio{
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-testimonio{
+    border-radius: 30%;
+    width: 220px;
+    height: 180px;
+    border: 5px solid purple;
+}
+/* MEDIAQUERIS PARA TABLETS */
+@media only screen and (max-width: 980px){
+    .articles{
+        width: 90%;
+    }
+}
+/* MEDIAQUERIS PARA CELULARES */
+@media only screen and (max-width: 480px){
+    .articles{
+        width: 98%;
+    }
+    article{
+        width: 100%;
+    }
+}

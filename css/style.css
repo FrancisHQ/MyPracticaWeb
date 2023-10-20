@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Calibri;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#img-logo{
+    margin: auto;
+    height: 60px;
+    border: 5px solid brown;
+    border-radius: 50%;
+}
+/* Estilos para el Banner */
+.banner{
+    width: 100%;
+    margin: auto;
+}
+.overlay{
+    background: plum;
+    min-height: 100vh;
+}
+#foto-banner{
+    width: 60%;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid brown;
+    border-radius: 50%;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+p{
+    font-size: 20px;
+    line-height: 20px;
+}
+.fondo-footer{
+    background: black;
+    padding: 20px 0px;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+/* MEDIAQUERIS PARA TABLETS */
+@media only screen and (max-width: 980px){
+    .container, .cont-banner{
+        width: 90%;
+    }
+}
+/* MEDIAQUERIS PARA CELULARES */
+@media only screen and (max-width: 480px){
+    .container, .cont-banner{
+        width: 95%;
+    }
+    .banner{
+        max-width: 100%;
+    }
+}

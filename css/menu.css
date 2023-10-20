@@ -1,0 +1,59 @@
+#menu, #check{
+    display: none;
+}
+/* Mediaqueri para Tablets */
+#check:checked ~ .botonera{
+    left: 6%;
+    transition: 0.5s ease-out;
+}
+/* Mediaqueri para Celulares */
+#check:checked ~ .botonera{
+    left: 9%;
+    transition: 0.5s ease-out;
+}
+@media only screen and (max-width:980px){
+    #menu{
+        display: block;
+        float: right;
+        font-size: 32px;
+        margin: 10px;
+        color: black;
+        cursor: pointer;
+    }
+    .botonera{
+        position: relative;
+        float: none;
+        left: -110%;
+        transition: 0.5s ease-out;
+    }
+    .botonera ul{
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        width: 100%;
+        background: slateblue;
+    }
+}
+@media only screen and (max-width:480px){
+    #menu{
+        display: block;
+        float: right;
+        font-size: 30px;
+        margin: 5px;
+        color: black;
+        cursor: pointer;
+    }
+    .botonera{
+        position: relative;
+        float: none;
+        left: -110%;
+        transition: 0.5s ease-out;
+    }
+    .botonera ul{
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        width: 100%;
+        background: slateblue;
+    }
+}

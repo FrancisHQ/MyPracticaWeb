@@ -1,0 +1,53 @@
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-galeria{
+    width: 22%;
+    margin-bottom: 10px;
+}
+.modelo{
+    position: fixed;
+    z-index: 1000000;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.img-modelo{
+    width: 450px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.cerrar{
+    background: red;
+    color: white;
+    font-size: 30px; 
+    margin: 10px;
+    padding: 10px 15px;
+}
+/* MEDIAQUERIS TABLETS */
+@media only screen and (max-width: 980px){
+    section{
+        width: 90%;
+    }
+    .img-galeria{
+        width: 45%;
+    }
+}
+/* MEDIAQUERIS CELULARES */
+@media only screen and (max-width: 480px){
+    section{
+        width: 98%;
+    }
+    .img-galeria{
+        width: 100%;
+    }
+}

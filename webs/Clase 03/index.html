@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Centro</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/subir.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/mapa.css">
+</head>
+<body>
+    <!-- CARGA -->
+    <div id="preloader">
+        <img src="img/preloader.gif" alt="jiji">
+    </div>
+    <!-- #INICIO -->
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+            <div id="logo">
+                <a href="#inicio"><img src="img/logo.png" alt=""></a>
+            </div>
+            <!-- Menu Hamburguesa -->
+            <div class="menu" id="menu" onclick="llamar()">
+            <label class="burger fa-solid fa-bars"></label>
+            </div>
+            <!--Fin del  Menu Hamburguesa -->
+            <nav class="botonera" id="botonera">
+                <ul>
+                    <li><a href="#inicio" id="active">INICIO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#galeria">GALERIA</a></li>
+                    <li><a href="#contactos">CONTACTOS</a></li>
+                    <li><a href="login.html" target="_blank">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="overlay">
+            <div class="cont-banner">
+                <h2>Clinica Dental Centro</h2>
+                <br>
+                <p>Más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados.</p>
+            </div>
+        </div>
+    </div>
+    <!-- BOTON SUBIR -->
+    <a class="fa-solid fa-angles-up" href="#inicio" id="subir"></a>
+<!-- #NOSOTROS -->
+    <main id="nosotros">
+        <p>CLINICA DENTAL CENTRO</p>
+        <div align="center"><hr color="skyblue" width="30%" height="4px"></div>
+        <p>Somos un equipo de cirujanos dentistas especializados con más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados en todas nuestras áreas para el cuidado de su salud dental y estética. Nuestros clientes son para nosotros lo mas importante que existe en el mundo.</p>
+        <img src="img/cuidados.jpg" alt="" class="img-responsive">
+    </main>
+    <!-- PARALLAX -->
+    <div class="fondo-parallax">
+        <div class="parallax">
+            <h3>Ven y te atenderemos con lo mejor...</h3>
+            <p>Especialidad dedicada a devolver la función masticatoria, restaurar y/o devolver la pérdida de dientes a través del uso de prótesis fija, removiblee e implantes para lo mejor de tu Dentadura en el mundo.</p>
+        </div>
+    </div>
+    <!-- GALERIA -->
+    <section id="galeria">
+        <article>
+            <h2>Lo Mejor para las Sonrisas de Nuestros Clientes</h2>
+            <div align="center"><hr color="skyblue" height="4px"></div>
+            <p>Ofrecer servicios de excelencia: Para lograr esto hemos diseñado un modelo de servicio diferenciado, basado en una cultura de tratamientos perfectos, disciplina, profesionalismo y diagnósticos acertados, logrando así la total satisfacción de nuestros pacientes.</p>
+        </article>
+        <article>
+            <button onclick="atras()" class="btn"> << </button>
+            <img src="img/img01.jpg" alt="" width="450px" id="img">
+            <button onclick="adelante()" class="btn"> >> </button>
+        </article>
+    </section>
+
+    <div class="fondo-contactos" id="contactos">
+        <div class="text-contactos">
+            <h3>CONTÁCTANOS</h3>
+            <div align="center" height="4px"><hr color="skyblue" width="20%" ></div>
+        </div>
+        <div class="contactos">
+            <div class="contact">
+                <h3>Ubícanos en</h3>
+                <ul class="listas">
+                    <li>Calle Zero frente a la Universiad Francis Hernández.</li>
+                    <li>Telefono:(01) 342-9812</li>
+                    <li>Celular: 952-387-999</li>
+                    <li>Whatsapp: 961-548-789</li>
+                    <li>Info: francis_hernandez@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="formulario">
+                    <h3>Dejanos un Mensaje</h3>
+                    <form action="">
+                        <p>Apellidos y Nombres</p>
+                        <input type="text" placeholder="Ingresa tus Apellidos y Nombres">
+                        <br>
+                        <p>Correo Electrónico</p>
+                        <input type="email" placeholder="Ingresa tu Correo">
+                        <br>
+                        <p>Celular</p>
+                        <input type="text" placeholder="Ingresa tu Celular">
+                        <br>
+                        <p>Comentarios</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mapa">
+        <h2>NUESTRO MAPA</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31212.882701984705!2d-77.0709049701691!3d-12.07030940681307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ecd3b32ed1%3A0xa63ff86b9b214929!2sCircuito%20M%C3%A1gico%20del%20Agua!5e0!3m2!1ses-419!2spe!4v1690418896280!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+    </div>
+
+    <div class="fondo-footer">
+        <div class="footer">
+            <footer style="align-content: center;text-align: center;">
+                <img src="img/logo.png" alt="" width="100px">
+                <h3>Dental Dent 2021</h3>
+                <h4>SIGUENOS EN:</h4>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </footer>
+            <footer>
+                <h3>HORARIO DE ATENCIÓN</h3>
+                <div align="center" height="4px"><hr color="skyblue" width="80%" ></div>
+                <br> 
+                <p>Todos los Dias -     9:00 am - 9:00pm</p>
+                <br>
+                <p>Lunes a Viernes -    9:00 am - 9:00pm</p>
+                <br>
+                <p>Sábados y Domingos - 9:00 am - 5:00pm</p>
+            </footer>
+            <footer>
+                <h3>CONTÁCTANOS EN:</h3>
+                <div align="center" height="4px"><hr color="skyblue" width="70%" ></div>
+                <br>
+                <ul class="direcciones">
+                    <li>Los Portales frente a la Universidad Universo 2021,
+                        Cuadra 15 de la Avenida Rosales.
+                    </li>
+                    <li>Celular: 961 456 785 / 987 456 321</li>
+                    <li>Correo: academiatriunfadores@gmail.com</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/ff10f625f5.js" crossorigin="anonymous"></script>
+</body>
+</html>

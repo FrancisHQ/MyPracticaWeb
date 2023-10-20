@@ -1,0 +1,79 @@
+.fondo-sobremi{
+    background: gray;
+    padding-top: 40px;
+    margin: 0px 0px;
+}
+aside{
+    width: 100%;
+}
+section{
+    margin: 0px 0px;
+    padding: 20px 100px;
+}
+.text-sobremi{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.text-especialidad{
+    text-align: center;
+}
+.articles{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    position: relative;
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.cont-article{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    transform: translateX(100%);
+    transition: 0.5s ease-out;
+}
+article:hover .cont-article{
+    transform: translateX(0%);
+    transition: 0.5s ease-out;
+}
+.img-article{
+    width: 280px;
+    height: 220px;
+}
+input[type="button"]{
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+    background: palevioletred;
+    border-radius: 10px;
+    border: none;
+}
+input[type="button"]:hover{
+    background: black;
+    color: palevioletred;
+}
+/* MEDIAQUERIS PARA TABLETS */
+@media only screen and (max-width: 980px){
+    .articles, article, aside{
+        width: 80%;
+    }
+}
+/* MEDIAQUERIS PARA CELULARES */
+@media only screen and (max-width: 480px){
+    .articles, aside{
+        width: 100%;
+    }
+    article{
+        width: 80%;
+    }
+}

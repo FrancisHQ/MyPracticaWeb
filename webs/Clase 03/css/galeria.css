@@ -1,0 +1,62 @@
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+article{
+    width: 450px;
+    margin-bottom:10px;
+}
+article h2{
+    padding: 10px;
+    text-align: center;
+    color: darkblue;
+    font-family: 'Montserrat', sans-serif;
+}
+article p{
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px;
+    font-size: 20px;
+}
+#img{
+    max-width: 100%;
+    padding: 0px;
+}
+.btn{
+    color: white;
+    background: black;
+    padding: 14px 14px;
+    border-radius: 50%;
+    border: 0 none;
+}
+
+
+/* Mediaqueris para Tablets */
+@media only screen and (max-width: 980px) {
+    section{
+        width: 90%;
+    }
+    article{
+        width: 45%;
+    }
+    #img{
+        max-width: 80%;
+    }
+}
+/* Mediaqueris para Celulares */
+@media only screen and (max-width: 480px) {
+    section{
+        width: 98%;
+    }
+    article{
+        width: 100%;
+    }
+    #img{
+        max-width: 80%;
+    }
+}

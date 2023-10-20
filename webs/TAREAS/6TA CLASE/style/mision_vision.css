@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: green;
+}
+header{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    background: rgb(109, 50, 8);
+    overflow: hidden;
+}
+header h1{
+    margin: 10px;
+    font-family: arial;
+    text-align: left;
+    font-size: 25px;
+}
+#logo{
+    color: white;
+    padding: 0px 20px;
+}
+#img-logo{
+    width: 100px;
+    float: left;
+}
+#abc{
+    float: right;
+}
+.abecedario{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#a{
+    background: green;
+    right: 390px;
+}
+#b{
+    background: blue;
+    right: 300px;
+}
+#c{
+    background: red;
+    right: 210px;
+}
+#botonera{
+    width: 75%;
+    background: blue;
+    margin: auto;
+    text-align: center;
+}
+#botonera ul{
+    list-style: none;
+}
+#botonera li{
+    display: inline-block;
+}
+#botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+}
+#botonera a:hover{
+    background: black;
+    color: yellow;
+}
+section{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    background: skyblue;
+    overflow: hidden;
+}
+article{
+    font-size: 18px;
+    width: 48%;
+    float: left;
+}
+article h2{
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+article h2:hover{
+    text-decoration: underline;
+}
+article p{
+    text-align: justify;
+    padding: 10px 0px;
+    color: rgb(43, 54, 65);
+}
+#img-article{
+    width: 100%;
+}
+aside{
+    width: 48%;
+    float: right;
+
+}
+aside h3{
+    color: rgb(43, 54, 65);
+    padding: 10px 0px;
+}
+aside p{
+    color: rgb(43, 54, 65);
+    text-align: justify;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+#img-aside{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.lista{
+    color: rgb(43, 54, 65);
+    line-height: 25px;
+
+}
+footer{
+    margin: auto;
+    padding: 20px;
+    width: 75%;
+    background: rgb(109, 50, 8);
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+}
+#botonera-h{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+#botonera-h ul{
+    list-style: none;
+}
+#botonera-h li{
+    display: inline-block;
+}
+#botonera-h a{
+    text-decoration: none;
+    color: yellow;
+    padding: 10px;
+}

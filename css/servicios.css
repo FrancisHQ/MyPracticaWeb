@@ -1,0 +1,50 @@
+.fondo-servicios{
+    background: url(../img/parallax.jpg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:40px;
+}
+.text-servicios{
+    text-align: center;
+    margin: 10px;
+    padding-top: 5px;
+}
+.servicios{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.servicio{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.servicio h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fa-solid{
+    margin-top: 30px;
+    width: 95%;
+    text-align: center;
+}
+.cont-serv{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+/* MEDIAQUERIS PARA TABLETS */
+@media only screen and (max-width: 980px){
+    .servicios, .servicio{
+        width: 90%;
+    }
+}
+/* MEDIAQUERIS PARA CELULARES */
+@media only screen and (max-width: 480px){
+    .servicios, .servicio{
+        width: 98%;
+    }
+}

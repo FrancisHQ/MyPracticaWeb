@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../TAREAS/img/mejor-fondo.jpg);
+    font-family: Times New Roman;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+}
+main h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.lista{
+    width: 250px;
+    margin: auto;
+    background: rgba(0.1, 0.1, 0.1  , 0.3);
+}
+.lista li{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.lista a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    padding: 10px;
+}
+footer p{    
+    text-align: center;
+    color: black;
+}

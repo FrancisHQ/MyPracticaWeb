@@ -1,0 +1,47 @@
+.fondo-portafolio{
+    margin: auto;
+    padding-top: 40px;
+    background: brown;
+}
+.text-portafolio{
+    text-align: center;
+    padding-top: 15px;
+    color: whitesmoke;
+}
+.portafolios{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portafolio{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.img-portafolio{
+    border-radius: 25px;
+    border: none;
+    width: 140%;
+    padding: 10px;
+}
+/* MEDIAQUERIS PARA TABLETS */
+@media only screen and (max-width: 980px){
+    .portafolios{
+        width: 90%;
+    }
+}
+/* MEDIAQUERIS PARA CELULARES */
+@media only screen and (max-width: 480px){
+    .portafolios{
+        width: 98%;
+    }
+    .portafolio{
+        width: 100%;
+    }
+    .img-portafolio{
+        max-width: 100%;
+    }
+}

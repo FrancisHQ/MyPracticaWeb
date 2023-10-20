@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Servicios Turísticos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<!-- Place somewhere in the <head> of your document -->
+    <link rel="stylesheet" href="flexsliderpersonal.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+
+
+</head>
+
+<body>
+<!-- BARRA -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top text-white" style="background: rgb(49, 77, 153);">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="250px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promociones.html">Promociones</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+            <div class="dropdown-menu bg-info text-dark" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="traslados.html">Traslados</a>
+              <a class="dropdown-item" href="guia.html">Guía de Trabajo</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                City Tours
+            </a>
+            <ul class="dropdown-menu bg-info text-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="tour1.html">City Tours Lima</a></li>
+              <li><a class="dropdown-item" href="tour2.html">Lima y Paracas</a></li>
+              <li><a class="dropdown-item" href="tour3.html">Lima - Paracas e Ica</a></li>
+              <li><a class="dropdown-item" href="tour4.html">Lima - Paracas - Ica y Nazca</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactos.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <section class="mt-5 pt-5">
+      <div class="traslados mt-5">
+        <div class="traslado-main border overflow-hidden" onClick="cambiarClase1()">
+          <h3 class="text-center bg-warning p-2 mb-0">TRASLADOS</h3>
+        </div>
+        <table class="tabla1 table" id="table1">
+          <thead>
+            <tr class="fw-semibold">
+              <th scope="col">#</th><th scope="col">Traslados USD (NO incluye IGV)</th><th scope="col">1-5 paxs</th><th scope="col" >6-10 paxs</th>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">1</td><td>Aeropuerto/Lima Cercado, San Isidro, Miraflores (o viceversa)</td><td>37</td><td>80</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">2</td><td>Aeropuerto/Cruz del sur (Javier Prado) (o viceversa)</td><td>37</td><td>80</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">3</td><td>Puerto del Callao/Lima Cercado, San Isidro, Miraflores, Barranco</td><td>37</td><td>80</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">4</td><td>Puerto del Callao/Aeropuerto</td><td>37</td><td>80</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">5</td><td>Estacion Cruz del sur (Javier Prado)/Lima Cercado, San Isidro, Miraflores (viceversa)</td><td>37</td><td>80</td>
+            </tr>
+          </thead>
+        </table>
+        <div class="traslado-main border overflow-hidden" onClick="cambiarClase2()">
+          <h3 class="text-center bg-danger p-2 mb-0">TOURS EN LIMA</h3>
+        </div>
+          <table class="tabla2 table" id="table2">
+            <thead>
+              <tr class="fw-semibold">
+                <th scope="col" >#</th><th scope="col">Tours en Lima USD (NO incluye IGV)</th><th scope="col">1-5 paxs</th><th scope="col" >6-10 paxs</th>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-semibold">1</td><td>Restaurant - Lima Cercado, San Isidro, Miraflores (3 horas)</td><td>65</td><td>90</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-semibold">2</td><td>Museo (3 horas)</td><td>65</td><td>90</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-semibold">3</td><td>Pachacamac (3 horas y media)</td><td>65</td><td>90</td>
+              </tr>
+            </thead>
+          </table>
+        <h3 class="text-center bg-dark text-white p-2 mb-0" onClick="cambiarClase3()"> ADICIONALES</h3>
+        <table class="tabla3 table" id="table3">
+          <thead>
+            <tr class="fw-semibold">
+              <th scope="col">#</th><th scope="col">Adicionales USD (NO incluye IGV)</th><th scope="col">--</th><th scope="col" >--</th>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">1</td><td>Hora a disposicion (Tarifa por hora, minimo 4 horas) Hora Adicional (desde una hora)</td><td>20</td><td>30</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">2</td><td>Guía</td><td>50</td><td>70</td>
+            </tr>
+          </thead>
+        </table>
+        <h3 class="text-center bg-primary p-2 mb-0" onClick="cambiarClase4()">FULL DAY</h3>
+        <table class="tabla4 table" id="table4">
+          <thead>
+            <tr class="fw-semibold">
+              <th scope="col">#</th><th scope="col">Full Day USD (NO incluye IGV)	</th><th scope="col">1-5 paxs</th><th scope="col" >6-10 paxs</th>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">1</td><td>Caral</td><td>350</td><td>500</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">2</td><td>Paracas</td><td>350</td><td>500</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">3</td><td>Lunahuana</td><td>350</td><td>500</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-semibold">4</td><td>Paracas - Ica</td><td>350</td><td>500</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+      <script>
+        function cambiarClase1(){
+        var tabla1=document.getElementById("table");
+        table1.classList.toggle("table-click");
+        }		
+          
+        function cambiarClase2(){
+        var tabla2=document.getElementById("table");
+        table2.classList.toggle("table-click");
+        }	
+        
+        function cambiarClase3(){
+        var tabla3=document.getElementById("table");
+        table3.classList.toggle("table-click");
+        }	
+
+        function cambiarClase4(){
+		    var table=document.getElementById("table");
+		    table4.classList.toggle("table-click");
+		    }	
+		</script>
+        
+    
+
+    <div class="tras">
+        <h3 class="text-center text-primary p-2">Traslados</h3>
+      </div>
+      <div class="caminos">
+        <div class="row t-5">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
+            <div class="rutas">
+              <img src="img/miraflores.jpg" alt="" class="img-rutas">
+              <div class="ruta">
+                <img src="img/auto01.png" alt="" class="img-carros">
+                <h4 class="text-white">Privado</h4>
+                <p>Traslado.</p><p class="text-right text-white">Desde US$ 25.00</p>
+              </div>
+            </div>
+            <a href="contactos.html"><p class="text-dark fw-semibold text-center my-3"><i class="fa-solid fa-circle-arrow-right"></i> Reserve Ya</p></a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
+            <div class="rutas">
+              <img src="img/jiron.jpg" alt="" class="img-rutas">
+              <div class="ruta">
+                <img src="img/auto02.png" alt="" class="img-carros">
+                <h4 class="text-white">Privado</h4>
+                <p>Traslado.</p><p class="text-right text-white">Desde US$ 70.00</p>
+              </div>
+            </div>
+            <a href="contactos.html"><p class="text-dark fw-semibold text-center my-3"><i class="fa-solid fa-circle-arrow-right"></i> Reserve Ya</p></a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
+            <div class="rutas">
+              <img src="img/costa_verde.jpg" alt="" class="img-rutas">
+              <div class="ruta">
+                <img src="img/auto03.png" alt="" class="img-carros">
+                <h4 class="text-white">Privado</h4>
+                <p>Traslado.</p><p class="text-right text-white">Desde US$ 80.00</p>
+              </div>
+            </div>
+            <a href="contactos.html"><p class="text-dark fw-semibold text-center my-3"><i class="fa-solid fa-circle-arrow-right"></i> Reserve Ya</p></a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
+            <div class="rutas">
+              <img src="img/ica_sur.jpg" alt="" class="img-rutas">
+              <div class="ruta">
+                <img src="img/auto01.png" alt="" class="img-carros">
+                <h4 class="text-white">Privado</h4>
+                <p>Traslado.</p>
+                <p class="text-right text-white">Desde US$ 120.00</p>
+              </div>
+            </div>
+            <a href="contactos.html"><p class="text-dark fw-semibold text-center my-3"><i class="fa-solid fa-circle-arrow-right"></i> Reserve Ya</p></a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="fondo-footer">
+    <div class="iconos text-center p-3 text-white">
+        <a href="https://www.facebook.com/" target="_blank"><i class="circulo fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="circulo fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="circulo fa-brands fa-linkedin-in"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="circulo fa-brands fa-whatsapp"></i></a>
+        <div class="footers">
+            <footer>
+                <p>Dirección: Avenida Las Cuzadas 2020 frente a los Robles.</p>          
+            </footer>
+            <footer>
+              <p>Cell: 988 913 338 // Cell: (01)368-1260</p>
+            </footer>
+            <footer>
+                <p>e-mail: miguel_luz@hotmail.com</p>
+            </footer>
+            <footer>
+                <span class="fas fa-book-open"></span><p>Libro de reclamaciones</p>
+            </footer>
+        </div>
+    </div>
+  </div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="https://kit.fontawesome.com/ff10f625f5.js" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+  <!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.flexslider').flexslider();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1000px;
+    text-align: center;
+    background: papayawhip;
+    padding: 0;
+    margin: auto;
+}
+header h1{
+    font-size: 40px;
+}
+header h2{
+    font-size: 30px;
+    color: maroon;
+}
+main{
+    width: 1000px;
+    font-family: Calibri;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    margin: auto;
+    background: palegoldenrod;
+    padding: 15px;
+}
+main p{
+    margin: 10px;
+}
+#izq{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+#der{
+    margin: 10px;
+    width: 200px;
+    float: right;
+}
+main h2{
+    text-align: center;
+    color: sienna;
+    padding: 10px;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background: black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+#ban{
+    width: 300px;
+    float: inline-end;
+}
